@@ -7,7 +7,9 @@ body {
   margin: 30px;
 }
 /*font-family: 'Raleway', sans-serif;*/
-
+.wrapper {
+  max-width: 1440px;
+}
 .header {
   display: flex;
   justify-content: space-between;
