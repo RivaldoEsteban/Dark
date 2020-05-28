@@ -94,10 +94,15 @@ p {
 .productive-text a {
   color: hsl(176, 68%, 64%);
 }
+.colaboradores-image {
+  position: relative;
+  top: 8px;
+  left: 15px;
+}
 .colaboradores {
   display: flex;
-
   margin: auto;
+  position: relative;
 }
 
 .patel {
