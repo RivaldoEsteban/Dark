@@ -3,8 +3,6 @@ body {
   margin: 0;
   background: #1d232f;
   color: white;
-  padding: 0 30px;
-  margin: 30px;
 }
 /*font-family: 'Raleway', sans-serif;*/
 .wrapper {
@@ -170,7 +168,9 @@ p {
   border-radius: 20px;
   border: 1px solid transparent;
   position: relative;
-  top: 200px;
+  margin-bottom: -100px;
+  z-index: 2;
+  margin-top: 100px;
   background: hsl(218, 28%, 13%);
 }
 .Check-in h1 {
@@ -178,7 +178,8 @@ p {
 }
 .Check-in p {
   padding: 0;
-  max-width: 800px;
+  max-width: 600px;
+  margin: auto;
 }
 .botones {
   display: flex;
@@ -186,28 +187,45 @@ p {
   justify-content: center;
 }
 .botones input {
-  padding: 10px 100px;
+  width: 350px;
+  padding: 1em 2em;
   border-radius: 30px;
+}
+input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
 }
 .botones button {
   margin: 0 50px;
 }
-.footer {
+.footer-content {
   display: flex;
-  background: hsl(216, 53%, 9%);
+
+  align-items: center;
+}
+.footer-content-height {
   height: 500px;
+}
+.footer {
+  background: hsl(216, 53%, 9%);
 }
 .link {
   display: flex;
 }
 .iconos {
-  display: flex;
+  display: block;
+  margin: auto;
 }
 .fab {
-  color: white;
-  display: block;
-
-  border-radius: 15px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.fab:before {
+  line-height: 35px;
 }
 
 .footer-fylo {

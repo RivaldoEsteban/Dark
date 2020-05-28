@@ -20,7 +20,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      src="https://kit.fontawesome.com/78706d69ff.js"
+      crossorigin="anonymous"
+    ></script>
     <title>
       Frontend Mentor | Fylo landing page with dark theme and features grid
     </title>
@@ -44,8 +47,8 @@
             <img src="images/logo.svg" alt="logo" height="50px" />
           </div>
           <div class="top-rigth">
-            <a class="top-ancla" href="">Features</a>
-            <a class="top-ancla" href="">Team</a>
+            <a class="top-ancla" href="#features">Features</a>
+            <a class="top-ancla" href="#team">Team</a>
             <a class="top-ancla" href="">Sign In</a>
           </div>
         </div>
@@ -73,7 +76,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="features">
         <div class="file-security">
           <div>
             <div>
@@ -146,7 +149,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="team">
         <div class="productive">
           <div>
             <img src="images/illustration-stay-productive.png" alt="" />
@@ -221,49 +224,56 @@
           </div>
         </div>
       </section>
+    </div>
 
-      <footer>
-        <div class="footer">
-          <div class="footer-fylo">
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer-row">
+          <div class="footer-content">
             <img src="images/logo.svg" alt="" />
-            <div class="location">
-              <img src="images/icon-location.svg" alt="" />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </p>
-            </div>
           </div>
-          <div class="contacto">
-            <div class="phone">
-              <img src="images/icon-phone.svg" alt="" />
-              <p>+1-543-123-4567</p>
+          <div class="footer-content footer-content-height">
+            <div class="footer-fylo">
+              <div class="location">
+                <img src="images/icon-location.svg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </div>
             </div>
-            <div class="email">
-              <img src="images/icon-email.svg" alt="" />
-              <p>example@fylo.com</p>
+
+            <div class="contacto">
+              <div class="phone">
+                <img src="images/icon-phone.svg" alt="" />
+                <p>+1-543-123-4567</p>
+              </div>
+              <div class="email">
+                <img src="images/icon-email.svg" alt="" />
+                <p>example@fylo.com</p>
+              </div>
             </div>
-          </div>
-          <div class="link">
-            <div class="link-1">
-              <p>About Us</p>
-              <p>Jobs</p>
-              <p>Press</p>
-              <p>Blog</p>
+            <div class="link">
+              <div class="link-1">
+                <p>About Us</p>
+                <p>Jobs</p>
+                <p>Press</p>
+                <p>Blog</p>
+              </div>
+              <div class="link-2">
+                <p>Contact Us</p>
+                <p>Terms</p>
+                <p>Privacy</p>
+              </div>
             </div>
-            <div class="link-2">
-              <p>Contact Us</p>
-              <p>Terms</p>
-              <p>Privacy</p>
+            <div class="iconos">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
             </div>
-          </div>
-          <div class="iconos">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
