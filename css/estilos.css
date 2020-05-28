@@ -95,18 +95,19 @@ p {
 .colaboradores-image {
   position: relative;
   top: 8px;
-  left: 15px;
+  left: 110px;
 }
 .colaboradores {
   display: flex;
   margin: auto;
   position: relative;
+  justify-content: center;
 }
 
 .patel {
   height: 170px;
   background: hsl(219, 30%, 18%);
-  margin: auto;
+  margin: auto 30px;
   padding: 20px;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -122,7 +123,7 @@ p {
 .bruce {
   height: 170px;
   background: hsl(219, 30%, 18%);
-  margin: auto;
+  margin: auto 30px;
   padding: 20px;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -138,7 +139,7 @@ p {
 .iva {
   height: 170px;
   background: hsl(219, 30%, 18%);
-  margin: auto;
+  margin: auto 30px;
   padding: 20px;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -199,11 +200,12 @@ input::-webkit-input-placeholder {
 }
 .footer-content {
   display: flex;
-
-  align-items: center;
+  padding-bottom: 100px;
+  justify-content: center;
 }
-.footer-content-height {
-  height: 500px;
+.footer-content-img {
+  padding-left: 90px;
+  padding-top: 200px;
 }
 .footer {
   background: hsl(216, 53%, 9%);
@@ -213,7 +215,7 @@ input::-webkit-input-placeholder {
 }
 .iconos {
   display: block;
-  margin: auto;
+  margin: 0 15px;
 }
 .fab {
   margin: 5px;
@@ -229,16 +231,16 @@ input::-webkit-input-placeholder {
 }
 
 .footer-fylo {
-  margin: auto;
+  margin: 0 15px;
 }
 .contacto {
-  margin: auto;
+  margin: 0 15px;
 }
 .link-1 {
-  margin: auto;
+  margin: 0 15px;
 }
 .link-2 {
-  margin: auto;
+  margin: 0 15px;
 }
 .footer-fylo p {
   padding: 0;
@@ -277,4 +279,5 @@ input::-webkit-input-placeholder {
 .email img {
   height: 15px;
   margin-top: 20px;
+  padding-left: 15px;
 }
