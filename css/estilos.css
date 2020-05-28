@@ -192,19 +192,32 @@ p {
 .footer {
   display: flex;
   background: hsl(216, 53%, 9%);
+  height: 500px;
 }
 .link {
   display: flex;
 }
 .iconos {
-  border: 14px solid red;
   display: flex;
 }
 .fab {
   color: white;
+  display: block;
+
+  border-radius: 15px;
 }
 
 .footer-fylo {
+  margin: auto;
+}
+.contacto {
+  margin: auto;
+}
+.link-1 {
+  margin: auto;
+}
+.link-2 {
+  margin: auto;
 }
 .footer-fylo p {
   padding: 0;
@@ -219,4 +232,28 @@ p {
 .location p {
   padding: 0;
   width: 300px;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+}
+.phone p {
+  padding: 0;
+  margin-left: 10px;
+}
+.phone img {
+  height: 18px;
+  padding-top: 15px;
+}
+.email {
+  display: flex;
+  justify-content: center;
+}
+.email p {
+  padding: 0;
+  margin-left: 10px;
+}
+.email img {
+  height: 15px;
+  margin-top: 20px;
 }
