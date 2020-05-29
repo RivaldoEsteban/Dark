@@ -443,15 +443,22 @@ input::-webkit-input-placeholder {
     margin:0 ;
   }
   .botones input{
-    width: 280px;
+    width: 283px;
     padding: 8px;
     margin: 10px;
+    border: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   }
   .botones button{
     width: 300px;
     padding: 10px;
     border-radius: 30px;
     margin: 10px;
+    background: #42b3d5;
+    color: white;
+    border: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
   }
   .footer-content{
     display: block;
