@@ -333,25 +333,26 @@ input::-webkit-input-placeholder {
     margin: auto;
   }
   .file{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .security{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .collaboration{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .store{
     margin-bottom: 100px;
   }
   .productive{
     display: block;
+    margin: 170px 0;
   }
   .productive img {
     max-width: 100%;
   }
   .productive-text{
-    padding: 10px;
+    padding: 20px;
   }
   .productive-text h1 {
     font-size: 18px;
@@ -492,6 +493,13 @@ input::-webkit-input-placeholder {
   .iconos{
     width: 150px;
     margin: auto;
-}
+  }
+  .phone p{
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+  }
+  .email p{
+    padding-top: 15px;
   }
 }
