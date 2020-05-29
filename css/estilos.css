@@ -191,12 +191,19 @@ p {
   width: 350px;
   padding: 1em 2em;
   border-radius: 30px;
+  border: 0;
 }
+
 input::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
 .botones button {
   margin: 0 50px;
+  margin: 0 30px;
+  background: #42b3d5;
+  color: white;
+  border-radius: 20px;
+  border: 0;
 }
 .footer-content {
   display: flex;
